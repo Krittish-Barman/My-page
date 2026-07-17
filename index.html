@@ -482,6 +482,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:2rem;text
 const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting) e.target.classList.add('v'); }), {threshold:0.08});
 document.querySelectorAll('.fi').forEach(el => obs.observe(el));
 
+  
 const titles = ['Full Stack Developer','Frontend Engineer','React Developer','Cybersecurity Enthusiast','JavaScript Developer'];
 let ti=0,ci=0,del=false;
 const el = document.getElementById('typeTarget');
